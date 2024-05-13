@@ -10,5 +10,6 @@ The parameters of the simulation are outlined below:
 5. **MU**, **SIGMA**: the amount of time the riders use their bikes for follows a log-normal distribution with mean MU and standard deviation SIGMA
 6. **STATION_CAPACITY**: at the beginning of the simulation, each station is populated with STATION_CAPACITY bikes -- if there are no bikes left at a station, riders wanting to check out a bike from the station must wait until a bike is returned to the station
 7. **IDEALIZED**: if true, then there can be no more than STATION_CAPACITY bikes parked at a station -- if the station is at capacity, riders wanting to return a bike to the station must wait until a bike is checked out from the station
+8. **VERBOSE**: whether or not the user wants a detailed summary of simulation events and states
 
 At the end of the simulation, statistics are calculated for the likelihood of a successful bike rental, the likelihood of a successful bike return, and the average time riders wait to check out a bike.
